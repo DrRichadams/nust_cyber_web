@@ -13,7 +13,8 @@ const Footer = () => {
                 <div className="footer_about_title1">NUST CYBER TEAM</div>
                 <div className="footer_about_title2">NUST</div>
                 <div className="footer_about_message">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam perferendis illo aspernatur. Doloremque iusto consequatur consectetur harum iure molestias ipsam voluptatem dolores sint dicta, maiores repellat expedita corporis incidunt eveniet.
+                <strong>Cyber security society </strong>
+                    Is a club where peer learning is put into practice.Your peers teach you topics well ahead of time from some modules you might have. Everything is taught from the perspective of a working environment through engagements and competitions (wonderful rewards), so you can gain a sense of why a module is important.Most importantly, you will be advised by a fellow peer/senior member on your potential career path in the cyber security sector as you grow or learn new skills in a relaxed/friendly setting.
                 </div>
             </div>
             <div className="footer_newsletter">
@@ -35,16 +36,36 @@ const Footer = () => {
 
                 <div className="cap_mail_box cont_box">
                     <FiMail size={20} />
-                    <div className="cap_email">proxyserver7798@gmail.com</div>
+                    <div className="cap_email">Owenuchezuba@gmail.com</div>
                 </div>
                 <div className="cap_cell_box cont_box">
                     <FiPhoneCall size={20} />
                     <div className="cap_cell">0813694757</div>
                 </div>
-                <div className="cap_cell_box cont_box">
-                    <FiFacebook size={20} />
-                    <div className="cap_cell">NustCyberTeam</div>
-                </div>
+                {/* 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                */}
                 
             </div>
         </div>

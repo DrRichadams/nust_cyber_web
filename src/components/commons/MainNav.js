@@ -1,10 +1,12 @@
-import React from "react"
+import React, { useState } from "react"
 import { FiExternalLink } from "react-icons/fi";
 import { useNavigate } from "react-router-dom"
 
 const MainNav = () => {
 
     const navigate = useNavigate()
+
+    
 
     return (
         <nav className="main_nav_container">

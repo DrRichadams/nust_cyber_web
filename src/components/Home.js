@@ -4,11 +4,12 @@ import Footer from "./commons/Footer"
 import nncsc_logo from "../resources/nncsc-logo.png"
 import icc_logo from "../resources/icc-logo.png"
 import csc_logo from "../resources/cscheader.png"
-import pro_pic from "../resources/images.jpg"
+import pro_pic from "../resources/female_user.svg"
 import cap1 from "../resources/cap1.jpg"
 import cap2 from "../resources/cap2.jpg"
 import cap3 from "../resources/cap3.jpg"
 import cap4 from "../resources/cap4.jpg"
+import cap_img from "../resources/male_user.svg"
 import { 
      FiUserCheck,
      FiMail,
@@ -28,42 +29,25 @@ const Home = () => {
 
     const [ captains, setCaptains ] = useState([
         {
-            id: 1, name: "Tinashe", surname: "Chifamba", email: "tc@gmail.com", cell: "00000000",
+            id: 2, name: "Ulrigh", surname: "De Wee", email: "Ulrighdewee@gmail.com",
             social: [
-                { instagram: "https://www.instagram.com/tcchifamba" },
-                { facebook: "https://www.facebook.com/tcchifamba" },
-                { linkedIn: "https://www.linkedIn.com/tcchifamba" },
-            ],
-            img: cap1
-        },
-        
-
-        {
-            id: 2, name: "Ulrigh", surname: "Dewit", email: "ul@gmail.com", cell: "00000000",
-            social: [
-                { instagram: "https://www.instagram.com/ulright" },
-                { facebook: "https://www.facebook.com/ulright" },
-                { linkedIn: "https://www.linkedIn.com/ulright" },
+                { linkedIn: "https://www.linkedin.com/in/ulrigh-de-wee" },
             ],
             img: cap2
-        },
+        }, 
 
         {
-            id: 3, name: "Owen", surname: "Uchezuba", email: "ou@gmail.com", cell: "00000000",
+            id: 3, name: "Owen", surname: "Uchezuba", email: "Owenuchezuba@gmail.com",
             social: [
-                { instagram: "https://www.instagram.com/owenuchez" },
-                { facebook: "https://www.facebook.com/owenuchez" },
-                { linkedIn: "https://www.linkedIn.com/owenuchez" },
+                { linkedIn: "https://www.linkedin.com/in/ouchezuba" },
             ],
             img: cap3
         },
 
         {
-            id: 4, name: "Adriaan", surname: "Gobbler", email: "ag@gmail.com", cell: "00000000",
+            id: 4, name: "Adriaan", surname: "Gobler", email: "Adriaanpgobler@gmail.com",
             social: [
-                { instagram: "https://www.instagram.com/adriangb" },
-                { facebook: "https://www.facebook.com/adriangb" },
-                { linkedIn: "https://www.linkedIn.com/adriangb" },
+                { linkedIn: "https://www.linkedin.com/in/adriaan-grobler-737462214" },
             ],
             img: cap4
         },
@@ -86,7 +70,7 @@ const Home = () => {
 
             <div className="comps_title">THE YEARLY COMPETITIONS TO PREPARE FOR</div>
 
-            <div className="competitions_banner">
+            <div className="competitions_banner"> 
                 <div className="competition_box">
                     <img src={nncsc_logo} alt="" />
                     <h3 className="comp_name">NNCSC</h3>
@@ -100,7 +84,7 @@ const Home = () => {
                     <img src={icc_logo} alt="" />
                     <h3 className="comp_name">ICC</h3>
                     <p>
-                    International Cybersecurity Challenge.
+                        International Cybersecurity Challenge.
                     </p>
                     <a href="https://ecsc.eu/icc/" className="visit_comp_btn" target="_blank">Visit Website</a>
                 </div>
@@ -109,43 +93,24 @@ const Home = () => {
                     <img src={csc_logo} alt="" />
                     <h3 className="comp_name">SANReN CSC</h3>
                     <p>
-                    Cyber Security Challenge.
+                        Cyber Security Challenge.
                     </p>
                     <a href="https://www.csc.ac.za/" className="visit_comp_btn" target="_blank">Visit Website</a>
                 </div>
             </div>
             <div className="about_sec">
                 <div className="about_titles">
-                    <h4>You want to know about us? come with me!</h4>
-                    <p>A message from bla bla bla</p>
+                    <h4>A glimpse of how we operate</h4>
+                    <p>A welcoming note from Marcheline Matroos</p>
                 </div>
                 <div className="about_container">
                     <div className="pro_pic">
                         <img src={pro_pic} alt="" />
                     </div>
                     <div className="about_message">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Totam, similique ea. Laboriosam voluptatibus dicta culpa 
-                        suscipit repellendus, maiores quaerat id numquam eligendi 
-                        accusantium distinctio qui adipisci amet optio dolor est mollitia 
-                        aperiam perferendis molestiae ipsa delectus aspernatur libero eum 
-                        laudantium. Neque delectus, voluptatibus et est dolor nesciunt 
-                        perferendis mollitia alias cumque minima, cupiditate eveniet 
-                        pariatur vitae praesentium at? Repellendus magnam exercitationem, 
-                        doloremque blanditiis dolorem odit rem id, dignissimos ducimus 
-                        corrupti sint officiis architecto quo commodi reprehenderit 
-                        incidunt vel repudiandae dolore.
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                        Totam, similique ea. Laboriosam voluptatibus dicta culpa 
-                        suscipit repellendus, maiores quaerat id numquam eligendi 
-                        accusantium distinctio qui adipisci amet optio dolor est mollitia 
-                        aperiam perferendis molestiae ipsa delectus aspernatur libero eum 
-                        laudantium. Neque delectus, voluptatibus et est dolor nesciunt 
-                        perferendis mollitia alias cumque minima, cupiditate eveniet 
-                        pariatur vitae praesentium at? Repellendus magnam exercitationem, 
-                        doloremque blanditiis dolorem odit rem id, dignissimos ducimus 
-                        corrupti sint officiis architecto quo commodi reprehenderit 
-                        incidunt vel repudiandae dolore.
+                    <strong>Cyber security society </strong>
+                    Is a club where peer learning is put into practice.Your peers teach you topics well ahead of time from some modules you might have. Everything is taught from the perspective of a working environment through engagements and competitions (wonderful rewards), so you can gain a sense of why a module is important.Most importantly, you will be advised by a fellow peer/senior member on your potential career path in the cyber security sector as you grow or learn new skills in a relaxed/friendly setting.
+                        
                     </div>
                 </div>
             </div>
@@ -158,7 +123,7 @@ const Home = () => {
                         return(
                             <div className="cap_box" key={cap.id}>
                                 <div className="img_box">
-                                    <img src={cap.img} alt="" />
+                                    <img src={cap_img} alt="" />
                                 </div>
                                 <div className="contact_BOX">
                                     <div className="cap_name_box cont_box">
